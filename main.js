@@ -12,3 +12,4 @@ function toggleDetail(e){
     $(detail).slideToggle();
     
 }
+
