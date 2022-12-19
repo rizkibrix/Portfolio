@@ -135,6 +135,25 @@ section::before{
 }
 
 
+.contact{
+    padding-bottom: 128px;
+}
+.contact::before{
+    content: "Contact";
+}
+
+.contact-form{
+    border: 2px solid black;
+    padding: 64px 32px;
+}
+
+.form-label{
+    font-weight: 700;
+}
+
+
+
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
