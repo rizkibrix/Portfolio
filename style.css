@@ -150,6 +150,11 @@ section::before{
     padding: 64px 32px;
 }
 
+.footer{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
 .form-label{
     font-weight: 700;
 }
