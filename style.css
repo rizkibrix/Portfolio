@@ -9,7 +9,7 @@ section::before{
     content: '';
     font-size: 72px;
     color: gray;
-    opacity: 0.25;
+    opacity: 0.50;
     position: absolute;
     font-weight: 700;
     top: 20px;
@@ -36,6 +36,10 @@ section::before{
 .navbar {
     background-color: white;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 
